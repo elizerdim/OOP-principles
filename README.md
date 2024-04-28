@@ -28,3 +28,5 @@ For example, different classes of circle, square, rectangle, triangle, and so on
 
 ## Useful Resources
 [Object-Oriented Programming in JavaScript](https://www.youtube.com/watch?v=PFmuCDHHpwk&t=1073s) - This beginner's video explains OOP principles in a simple and concise way.
+[Prototypal inheritance](https://javascript.info/prototype-inheritance) - Detailed explanation of prototypes and inheritance
+[Object.create() method](https://www.youtube.com/watch?v=MACDGu96wrA)
