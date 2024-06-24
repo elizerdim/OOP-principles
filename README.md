@@ -27,7 +27,7 @@ Benefits:
 For example, different classes of circle, square, rectangle, triangle, and so on can inherit various properties and methods from a class of shape, while also having their own draw() method, overwriting the one defined in the class of shape.
 
 ## Useful Resources
-[Object-Oriented Programming in JavaScript](https://www.youtube.com/watch?v=PFmuCDHHpwk&t=1073s) - This beginner's video explains OOP principles in a simple and concise way.
+[Object-Oriented Programming in JavaScript](https://www.youtube.com/watch?v=PFmuCDHHpwk&t=1073s) - This beginner's video explains OOP principles in a simple and concise way - most of the examples and descriptions in here are from this video.
 
 [Prototypal inheritance](https://javascript.info/prototype-inheritance) - Detailed explanation of prototypes and inheritance
 

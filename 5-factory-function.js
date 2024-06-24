@@ -3,6 +3,7 @@
 // They don't use the prototype, so they are not good for performance if
 // you are creating thousands of object
 
+// Constructor function
 const User = function(name) {
   this.name = name;
   this.discordName = "@" + name;
@@ -18,6 +19,8 @@ const User = function(name) {
 // Unlike the constructor above, the object created with this factory function
 // doesn't contain the reputation variable itself, it only contains two methods
 // that read or increase its value
+
+// Factory function
 function createUser(name) {
   const discordName = "@" + name;
 
