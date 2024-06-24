@@ -1,4 +1,16 @@
-const employee = {
+// This is spaghetti code
+let employeeOne_baseSalary = 30_000;
+let employeeOne_overtime = 10;
+let employeeOne_rate = 20;
+
+function getWage(baseSalary, overtime, rate) {
+  return baseSalary + (overtime * rate);
+}
+
+getWage(employeeOne_baseSalary, employeeOne_overtime, employeeOne_rate);
+
+// This is object-oriented code with an object literal
+const employeeOne = {
   baseSalary: 30_000,
   overtime: 10,
   rate: 20,
@@ -9,15 +21,6 @@ const employee = {
 
 employee.getWage();
 
-//this object encapsulates the following data and function
-let baseSalary = 30_000;
-let overtime = 10;
-let rate = 20;
-
-function getWage(baseSalary, overtime, rate) {
-  return baseSalary + (overtime * rate);
-}
-
-//the method inside the object has no parameters whereas the one on the outside has 3
-//a symptom of procedural programming is functions with a lot of parameters
-//"The best functions are those with no parameters" -Uncle Bob
+// the method inside the object has no parameters whereas the function in the spaghetti code has 3
+// a symptom of procedural programming is functions with a lot of parameters
+// "The best functions are those with no parameters" -Uncle Bob
