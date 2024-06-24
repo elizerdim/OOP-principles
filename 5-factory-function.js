@@ -20,6 +20,10 @@ const User = function(name) {
 // doesn't contain the reputation variable itself, it only contains two methods
 // that read or increase its value
 
+// The following function also uses closure to make reputation variable private
+// it cannot be accessed from other parts of the code
+// this strategy is used to achieve abstraction
+
 // Factory function
 function createUser(name) {
   const discordName = "@" + name;
