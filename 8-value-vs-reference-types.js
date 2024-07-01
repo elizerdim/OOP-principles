@@ -16,8 +16,9 @@ a.value = 20;
 
 console.log(a); // returns { value: 20 }
 console.log(b); // returns { value: 20 }
-// value is stored in a location in the memory and the reference to that location is stored in the variable
-// when a is copied to b, the reference to that location is copied to b
+// Value is stored in a location in the memory and 
+// the reference to that location is stored in the variable.
+// When a is copied to b, the reference to that location is copied to b.
 
 
 // number
