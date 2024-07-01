@@ -44,3 +44,5 @@ For example, different classes of circle, square, rectangle, triangle, and so on
 [Classical Inheritance is obsolete](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) - This article argues that using `class` keyword is not necessary in any situation.
 
 [SOLID design principles](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5) - Short article series on SOLID design principles
+
+[JavaScript OOP video series on YouTube from Tech with Nader](https://www.youtube.com/playlist?list=PLovN13bqAx7DVYEicMjXyCmmGa_bueVt9)
