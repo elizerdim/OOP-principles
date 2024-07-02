@@ -45,4 +45,6 @@ For example, different classes of circle, square, rectangle, triangle, and so on
 
 [SOLID design principles](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5) - Short article series on SOLID design principles
 
+[SOLID design principles video series](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) - Video series by Web Dev Simplified
+
 [JavaScript OOP video series on YouTube from Tech with Nader](https://www.youtube.com/playlist?list=PLovN13bqAx7DVYEicMjXyCmmGa_bueVt9)
