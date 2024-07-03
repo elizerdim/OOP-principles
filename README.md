@@ -20,7 +20,7 @@ Benefits:
 
 <ins>reduced impact of change</ins> - if a method inside an object is changed in the future, it won't leak to the rest of the code outside of the object and none of that code will require any changes
 
-**3-Inheritance** - When an object is created based on another object and inherits all of its properties and methods. The benefit of inheritance is it helps eliminate redundant code and lower memory usage, thus increasing performance.
+**3-Inheritance** - When an object is created based on another object and inherits all of its properties and methods. The benefit of inheritance is it helps eliminate redundant code and reduces memory usage, thereby increasing performance.
 
 **4-Polymorphism** - Allows treatment and handling of different data types through the same interface; it is the ability to present the same interface for different data types. It is achieved by redefining or overwriting a method inside a derived child class of a parent. It eliminates the need for long lines of `if...else` or `switch` statements.
 
