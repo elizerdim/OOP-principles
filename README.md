@@ -26,6 +26,44 @@ Benefits:
 
 For example, different classes of circle, square, rectangle, triangle, and so on can inherit various properties and methods from a class of shape, while also having their own draw() method, overwriting the one defined in the class of shape.
 
+## SOLID Design Principles
+
+- Single Responsibility Principle
+- Open-Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
+### Single Responsibility Principle
+
+Every class, module, or function in a program should have one responsibility/purpose in a program. As a commonly used definition, "every class should have only one reason to change".
+
+### Open-Closed Principle
+
+Every class, module, or function in a program should be open for extension, but closed for modification.
+
+- A module will be said to be open if it is still available for extension. For example, it should be possible to add fields to the data structures it contains, or new elements to the set of functions it performs.
+
+- A module will be said to be closed if it is available for use by other modules. This assumes that the module has been given a well-defined, stable description (the interface in the sense of information hiding).
+
+### Liskov Substitution Principle
+
+Objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
+
+An overridden method of a subclass needs to accept the same input parameter values as the method of the superclass. That means you can implement less restrictive validation rules, but you are not allowed to enforce stricter ones in your subclass. Otherwise, any code that calls this method on an object of the superclass might cause an exception, if it gets called with an object of the subclass.
+
+### Interface Segregation Principle
+
+No code should inherit or be forced to depend on methods it does not use.
+
+### Dependency Inversion Principle
+
+High-level modules should depend on abstractions rather than concrete implementations. 
+
+- High-level modules should not depend on low-level modules. Both should depend on abstractions.
+- Abstractions should not depend on details. Details should depend on abstractions.
+
+
 ## Useful Resources
 [Object-Oriented Programming in JavaScript](https://www.youtube.com/watch?v=PFmuCDHHpwk&t=1073s) - This beginner's video explains OOP principles in a simple and concise way - most of the examples and descriptions in here are from this video.
 
@@ -48,3 +86,5 @@ For example, different classes of circle, square, rectangle, triangle, and so on
 [SOLID design principles video series](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) - Video series by Web Dev Simplified
 
 [JavaScript OOP video series on YouTube from Tech with Nader](https://www.youtube.com/playlist?list=PLovN13bqAx7DVYEicMjXyCmmGa_bueVt9)
+
+[SOLID Design Principles Explained: The Liskov Substitution Principle with Code Examples](https://stackify.com/solid-design-liskov-substitution-principle/#:~:text=The%20Liskov%20Substitution%20Principle%20in,the%20objects%20of%20your%20superclass.)
