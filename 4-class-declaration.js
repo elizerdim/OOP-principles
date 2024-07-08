@@ -166,3 +166,24 @@ console.log(warrior instanceof GamePlayer) // true
 console.log(warrior instanceof Warrior) // true
 console.log(warrior instanceof Array) // false
 console.log(warrior instanceof Object) // true
+
+// Private properties and methods
+// Private properties get created by using a hash # prefix and cannot be legally referenced outside of the class. 
+// The privacy encapsulation of these class properties is enforced by JavaScript itself. 
+// The only way to access a private property is via dot notation, and you can only do so within the class that 
+// defines the private property. (explanation from MDN)
+class ClassWithPrivate {
+  #privateField;
+  #privateFieldWithInitializer = 42;
+
+  #privateMethod() {
+    // …
+  }
+
+  static #privateStaticField;
+  static #privateStaticFieldWithInitializer = 42;
+
+  static #privateStaticMethod() {
+    // …
+  }
+}
