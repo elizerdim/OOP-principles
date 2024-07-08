@@ -187,3 +187,27 @@ class ClassWithPrivate {
     // …
   }
 }
+
+// Getters and Setters
+// This class saves the temp in Fahrenheit
+// The getter returns the temp in Celcius
+// The setter takes a temp in Celcius and saves it in the object in Fahrenheit
+// example is from freeCodeCamp
+class Thermostat {
+  constructor(_temp) {
+    this._temp = _temp;
+  }
+
+  get temperature() {
+    return 5/9 * (this._temp - 32);
+  }
+
+  set temperature(tempInCelcius) {
+    this._temp = tempInCelcius * 9.0 / 5 + 32    
+  }
+}
+
+const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+let temp = thermos.temperature; // 24.44 in Celsius
+thermos.temperature = 26;
+temp = thermos.temperature; // 26 in Celsius
